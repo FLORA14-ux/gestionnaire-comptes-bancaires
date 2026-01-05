@@ -1,0 +1,96 @@
+{
+  "comptes": [
+    {
+      "numero_compte": "CPT00001",
+      "titulaire": "Jean Dupont",
+      "type_compte": "Courant",
+      "solde": 3300.0,
+      "date_creation": "05/01/2026",
+      "transactions": [
+        {
+          "date": "05/01/2026 23:11:06",
+          "type_operation": "Dépôt initial",
+          "montant": 1000,
+          "solde_apres": 1000
+        },
+        {
+          "date": "05/01/2026 23:11:06",
+          "type_operation": "Dépôt",
+          "montant": 500,
+          "solde_apres": 1500
+        },
+        {
+          "date": "05/01/2026 23:11:06",
+          "type_operation": "Retrait",
+          "montant": 200,
+          "solde_apres": 1300
+        },
+        {
+          "date": "05/01/2026 23:26:34",
+          "type_operation": "Dépôt",
+          "montant": 2000.0,
+          "solde_apres": 3300.0
+        }
+      ]
+    },
+    {
+      "numero_compte": "CPT00002",
+      "titulaire": "Marie Martin",
+      "type_compte": "Épargne",
+      "solde": 2300,
+      "date_creation": "05/01/2026",
+      "transactions": [
+        {
+          "date": "05/01/2026 23:11:06",
+          "type_operation": "Dépôt initial",
+          "montant": 2000,
+          "solde_apres": 2000
+        },
+        {
+          "date": "05/01/2026 23:11:06",
+          "type_operation": "Dépôt",
+          "montant": 300,
+          "solde_apres": 2300
+        }
+      ]
+    },
+    {
+      "numero_compte": "CPT00003",
+      "titulaire": "flora",
+      "type_compte": "Épargne",
+      "solde": 2000.0,
+      "date_creation": "05/01/2026",
+      "transactions": [
+        {
+          "date": "05/01/2026 23:18:23",
+          "type_operation": "Dépôt initial",
+          "montant": 2000.0,
+          "solde_apres": 2000.0
+        }
+      ]
+    },
+    {
+      "numero_compte": "CPT00004",
+      "titulaire": "ama",
+      "type_compte": "Courant",
+      "solde": 2000.0,
+      "date_creation": "05/01/2026",
+      "transactions": [
+        {
+          "date": "05/01/2026 23:21:22",
+          "type_operation": "Dépôt initial",
+          "montant": 2000.0,
+          "solde_apres": 2000.0
+        }
+      ]
+    },
+    {
+      "numero_compte": "CPT00005",
+      "titulaire": "gloria",
+      "type_compte": "Épargne",
+      "solde": 0.0,
+      "date_creation": "05/01/2026",
+      "transactions": []
+    }
+  ]
+}
